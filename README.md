@@ -1,5 +1,5 @@
-# 💫 About Me:
-🌱 **I’m currently learning:**  <br>Full Stack Development<br>
+#  About Me:
+**I’m currently learning:**  <br>Full Stack Development<br>
 
 
 # 💻 
@@ -32,7 +32,7 @@
 <!-- ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) 	![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  -->
 
-# 📊 
+# 📊
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pavancos&hide=jupyter%20notebook&&theme=github_dark)
 
 
