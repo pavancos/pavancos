@@ -41,7 +41,7 @@
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) 	![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  -->
 
 # 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pavancos&hide=jupyter%20notebook,html,css&&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pavancos&hide=jupyter%20notebook,html,css,powershell&&theme=github_dark)
 #
 <!--
 ![](https://github-contribution-stats.vercel.app/api/?username=pavancos)
