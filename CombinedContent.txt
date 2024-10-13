@@ -5,7 +5,6 @@ File: C:\Users\pavan\Documents\GitHub\pavancos\src\App.css
 File: C:\Users\pavan\Documents\GitHub\pavancos\src\App.jsx
 
 import ContactCard from './components/Contactcard/ContactCard';
-import Pullout from './components/Pullout/Pullout';
 
 export default function App() {
   return (
@@ -13,7 +12,6 @@ export default function App() {
       <div id="Card" className="flex w-screen justify-center items-center">
         <ContactCard />
       </div>
-      <Pullout />
     </div>
   );
 }
@@ -24,60 +22,31 @@ File: C:\Users\pavan\Documents\GitHub\pavancos\src\index.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-  background-color: rgb(232, 215, 115);
-}
-body, #root {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 
-}
-#root{
-  background-color:rgb(255, 255, 255); ;
-}
-#Pull {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  transform: translateY(100%);
-  transition: transform 0.3s ease-in-out;
-}
+@layer base {
+  body {
+    @apply bg-yellow-300;
+  }
 
-#Card {
-  background-color: rgb(232, 215, 115);
-  width: 100vw;
-  
-  background-position: 50%;
-  background-size:cover;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  background-size: 40px 40px;
-  background-image:
-    linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
+  body, #root {
+    @apply h-screen w-screen m-0 p-0 box-border;
+  }
+
+  #root {
+    @apply bg-white;
+  }
+
+  #Card {
+    @apply w-screen overflow-hidden sticky top-0 h-screen;
+    background-color: rgb(232, 215, 115);
+    background-position: 50%;
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, grey 1px, transparent 1px),
+                      linear-gradient(to bottom, grey 1px, transparent 1px);
+  }
 }
 
-#Pull {
-  background-color: rgb(255, 255, 255);
-  backdrop-filter: blur(5px);
-  color: #000;
-  padding: 7rem 2rem 2rem 2rem;
-  border-top: 2px solid black;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  position: relative;
-  -webkit-transform: translateY(-50px);
-  -ms-transform: translateY(-50px);
-  transform: translateY(-50px);
-  overflow: hidden;
-  height: 100vh;
-}
-
-/* fonts */
+/* Fonts */
 @font-face {
   font-family: 'Castoro-Regular';
   src: url("./fonts/Castoro-Regular.ttf");
@@ -118,7 +87,7 @@ import Connect from './Connect/Connect';
 const ContactCard = () => {
   return (
     <div
-      className='w-10/12 sm:w-1/2  bg-white p-4 rounded-sm shadow-md my-48 '
+      className='w-10/12 sm:w-1/2  bg-white p-4 rounded-sm shadow-md mt-32 mb-48 '
     >
       <div
         className={
@@ -260,39 +229,58 @@ const Resume = () => {
 export default Resume
 
 
-File: C:\Users\pavan\Documents\GitHub\pavancos\src\components\Pullout\Pullout.jsx
+%	#-+M)5( )&' /
+   P]�   ?@<
+ L_1M  a . N  	+""'5#&&566723#"'5��1b4 PL	/"?PS	>q=	�S��%L%  I0� $ 9@6#L �  i  e  _   .N$#$%"	+7'632#"&5463232654&#"'P��
+NJ2M)1F(
+	
+)0/:#�&<A1,:&"%+0 +   IX�  * 7@4L  i   e a .N *($"
+ 	+"&&5466322&"#"632'32654&#"�&H/9sX
+	BU)4!;%-Gq1+2!I@57gC
+G72'*9�@7%,/)   	J!� % -@*LJ   � �  a . NID#T	+'667"&#"""&'673267"#""T&P'3#
+&P+7/*
+K	H�I	#NA5wv5  IO�  ' 5 .@+4L   e a .N /-! 	+"&54675&&54632'32654&'&76654&#"�HN-&&PCAF/%3Xq&(&(6,G"!".4I6&/)*92#&-#-=�
+#*$4	!$   IR�  + T�	LK�2PX@    e a .M a 7N@   i    e a .NY@	$%6%$4	+46723267#"&546632#"&7654&#"326:LV
+2@A#E1)I-5pY�2%)) KF<
+D,!:#A76eA�
 
-import React, { useEffect, useState } from 'react';
+F8-""6 �� ��ZiN  �� 	� ����5+   �� 	�� iO  �� 	� ����5+   �� 	��+iP  �� 	� ����5+   �� 	��$iQ  �� 	� ����5+   �� ��]iR  �� 	� ����5+   �� ��0hS  �� 	� ����5+   �� ��XiT  �� 	� ����5+   �� 	��!hU  �� 	� ����5+   �� ��OiV  �� 	� ����5+   �� ��RiW  �� 	� ����5+   �� 	���� &O   'L%  RW�� 	�����5+ �� 	���� &O   'L%  P��� 	�����5+ �� 	���� &Q   'L4  Rf�� 	�����5+ �� ��� &N   'L`  N��� 	�����5+ �� ���� &N   'L`   'N���N.�� �����5+�����5+  0���  -@* L  g 1M /N	+%#"'5#&735623�
+"��"
+������  0 �
+  @   W  _   O+%!&7!�#��   0 �   9@6 L  g a 1M _ /N	+#"'5#&735623!&7!�
+"��"
+��#�������  > �  �
+2+6677'&'7>��	�������������  0 �    TK�PX@    g a 1M a /N@    i    g Y a QY@	$$$$	+!!&4632#"&4632#"&4��#�!!!!
+� !! ^ !!    0 yd   "@    g W _ O	+!!&!!&4��#��#d�   9 
+�  �	2+%%&=�
+�|��E�
+��
+�   6 
+
+�  � 2+&&'%%66M��E
+��|
+���
+��   0 OZ  %@"L �   W   _  O	+!"'5!&4�
+"�_Z���   ( �|v , 2 ; Y@V43(	* L �  i	  i W _ O ;910.-'% ,,
++"'#"&5474654&#"#"&546632327!&7!'732%506&0�!1I$/4-��%x2"*+45*%`!
+!(
+&($	5@2
+c�[+  ( ��v     7@4  i   i W _ O  +"&546632'32654&#"!&7!�N].P23L+-O�,+)-,+*,���-*YI4L**J02L*�@LG=ALG��  2�v   *�dD@    i Y a Q&&&#	+� D46632#"&&7326654&&#"21R22S12R21S18!9#$9!!9$#9!�2R11R21S21S2#<##;$$;"#;   F� ��  @	 L   � 4N#	+#6632�S%!~� �� A�k� &s�  s �    /�<� L ?@<I@+$ L1M a  8M 9N HF?=20)' LL	+"&&'#".54667&&546632326754>32327#"'�-&, # 		
+*#$
+#$1D
+
++%.&)'60,W)4$5/C|;!5<7wg
++&P7&zJ7$H4!TN3.�G 0'	%=�>)  ���� 
+  &K� PX@   � 3N@	   � vY�	+3#
+��  ���� {x   O@ L
+
+	JK� PX@ .M   3 NK�"PX@   � .N@	  �   vYY�	+#3''7'77
+nhhVVhhW���bbRSbbS  (���v     ' / 7 ? G O W _ w@t  i
+i i  ii 
+Y	
+i 
+a 
+
+Q_][YWUSQOMKIGECA?=;97531/-+)'%""""""""!+432#"432#"432#"432#"432#"432#"432#"'432#"%432#"432#"%432#"'432#"(,**,�*,,**,,*�),,)�]++++++++�++++�*++*�*++*�*++*�*++*�++++5+++�++***+�+++�++***+�!++*�++**++*A++**++*�++(   
 
-const Pullout = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  return (
-    <div
-      id='Pull'
-      className={`${
-        isScrolled ? 'translate-y-0' : '-translate-y-3/4'
-      } transition-transform duration-300 ease-in-out`}
-    >
-      HEllo
-    </div>
-  );
-};
-
-export default Pullout;

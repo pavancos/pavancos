@@ -6,7 +6,7 @@ import Connect from './Connect/Connect';
 const ContactCard = () => {
   return (
     <div
-      className='w-10/12 sm:w-1/2  bg-white p-4 rounded-sm shadow-md my-48 '
+      className='w-10/12 sm:w-[45%] max-w-[600px]  bg-white p-4 rounded-md shadow-lg mt-16 mb-48 '
     >
       <div
         className={
@@ -27,7 +27,7 @@ const ContactCard = () => {
           <h1
             className={
               `text-xl md:text-3xl font-castoro
-              text-center
+              text-center leading-4
               `
             }
           >

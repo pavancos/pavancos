@@ -1,34 +1,17 @@
-import React, { useEffect, useState } from 'react';
-
+import React from 'react'
+import Aboutcontainer from './AboutContainer/Aboutcontainer'
+import Projectcontainer from './ProjectContainer/Projectcontainer'
 const Pullout = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <div
-      id='Pull'
-      className={`${
-        isScrolled ? 'translate-y-0' : '-translate-y-3/4'
-      } transition-transform duration-300 ease-in-out`}
-    >
-      HEllo
+    <div className={
+        `border-t-2 border border-black rounded-t-3xl z-50 relative
+        h-[70vh] bg-white shadow-xl shadow-neutral-800 drop-shadow-xl
+        flex flex-col items-center   pt-6`
+      }>
+        <Aboutcontainer title="about" ></Aboutcontainer>
+        <Projectcontainer title="projects"></Projectcontainer>
     </div>
-  );
-};
+  )
+}
 
-export default Pullout;
+export default Pullout

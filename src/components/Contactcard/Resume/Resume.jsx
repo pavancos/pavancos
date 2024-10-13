@@ -7,7 +7,7 @@ const Resume = () => {
             flex flex-row 
         `
         }>
-            <a href='/Pavan_Kumar_Chennupati.pdf' download='Pavan_Kumar_Chennupati.pdf'
+            <a href='/Resume.pdf' download='Pavan_Kumar_Chennupati.pdf'
                 target='_blank'
                 className={
                     `text-xs md:text-base font-castoro flex flex-row justify-center items-center
