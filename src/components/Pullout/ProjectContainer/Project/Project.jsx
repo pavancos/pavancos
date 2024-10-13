@@ -6,7 +6,7 @@ import livePng from '../../../../assets/Browser.svg'
 const Project = (props) => {
 
     let localProject = props.project;
-    let { skills, title, liveLink, gitLink, description } = localProject;
+    let { skills, title, liveLink, gitLink, description,show } = localProject;
     return (
         <div className={
             `border border-black w-11/12 mb-7 h-[166px] rounded-sm mx-auto 
@@ -16,7 +16,7 @@ const Project = (props) => {
             <div className={
                 `w-1/2 flex justify-center items-center overflow-hidden`
             }>
-                <img loading='lazy' className="w-full" src={trackCode} alt="" />
+                <img loading='lazy' className="w-full" src={show} alt="" />
             </div>
 
             <div className={
