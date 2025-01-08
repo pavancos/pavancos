@@ -42,7 +42,7 @@ const Card = ({ title, description, techStack, siteLink, codeLink, preview }: Ca
                         `rounded-lg
                 `
                     }
-                    objectFit="contain"
+                    style={{ objectFit: "contain" }}
                     layout="responsive"
                     width={16}
                     height={9}

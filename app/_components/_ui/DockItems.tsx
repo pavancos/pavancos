@@ -48,7 +48,7 @@ const DockItems = ({ src, alt, section, isTop, isBottom }: DockItemsProps) => {
         quality={100}
         placeholder="empty"
         unoptimized={true}
-        objectFit="contain"
+        style={{ objectFit: 'contain' }}
       />
       <span className="absolute top-full left-1/2 transform -translate-x-1/2 mb-2 bg-[#4e4e4e00] text-white text-center text-xs rounded-lg py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         {section}
