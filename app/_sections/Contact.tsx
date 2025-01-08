@@ -21,7 +21,7 @@ const Contact = () => {
       <p className="font-mono w-2/3 md:w-1/2 text-sm md:text-xl">
         Whether you have a question or just want
         to say hi, feel free to contact me and
-        I'll try my best to get back to you!
+        I&apos;ll try my best to get back to you!
       </p>
       <main className='relative'>
         <div className='flex gap-4'>
@@ -68,7 +68,7 @@ const Contact = () => {
           Built with NextJs and TailwindCSS & Loosely Designed using Figma
         </p>
         <p className="text-xs text-neutral-300">
-          © 2024 Pavan Kumar Chennupati
+         <a className='hover:text-[#d3dd4a]' href="v0.pavanc.me">v0</a> © 2024 Pavan Kumar Chennupati
         </p>
       </div>
     </footer>

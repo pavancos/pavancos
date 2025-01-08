@@ -1,5 +1,4 @@
 "use client";
-import Home from '../../../public/dock/home.svg'
 import Image from 'next/image'
 
 type DockItemsProps={

@@ -3,6 +3,7 @@ import { Ubuntu } from "next/font/google"
 import { LinkButton } from "./_ui/LinkButton"
 
 const UbuntuFont = Ubuntu({
+    subsets: ["latin"],
     preload: true,
     weight: "400"
 })

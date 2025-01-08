@@ -1,6 +1,6 @@
-import { SiCplusplus, SiCplusplusHex, SiJavascript, SiJavascriptHex, SiPython, SiPythonHex } from "@icons-pack/react-simple-icons"
 import { Ubuntu } from "next/font/google"
 const UbuntuFont = Ubuntu({
+  subsets: ["latin"],
     preload: true,
     weight: "400"
 })
@@ -22,7 +22,7 @@ const AboutSection = () => {
           Developer | Designer | Student.
         </p>
         <p>
-          I'm currently majoring in Computer Science at PVPSIT.
+          I&apos;m currently majoring in Computer Science at PVPSIT.
         </p>
         <p>
           I love building cool, user-friendly, responsive websites.

@@ -1,6 +1,7 @@
 import ContactButton from "./ContactButton"
 import { Ubuntu } from "next/font/google"
 const UbuntuFont = Ubuntu({
+    subsets: ["latin"],
     preload: true,
     weight: "400"
 })
@@ -17,10 +18,10 @@ const Navbar = () => {
         `
     }>
         <div>
-            <a href="/" 
+            <p
                 className="text-neutral-300 md:text-lg font-mono font-semibold hover:backdrop-brightness-125">
                 &lt; pavan /&gt;
-            </a>
+            </p>
         </div>
         <div>
             <ContactButton/>

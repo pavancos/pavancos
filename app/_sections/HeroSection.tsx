@@ -1,9 +1,17 @@
-import { RozhaOne } from "../layout"
-import { Ubuntu } from "next/font/google"
+
+import { Ubuntu, Rozha_One } from "next/font/google"
 const UbuntuFont = Ubuntu({
+    subsets: ["latin"],
     preload: true,
     weight: "400"
 })
+
+const RozhaOne = Rozha_One({
+    subsets: ["latin"],
+    preload: true,
+    weight: "400"
+})
+
 const HeroSection = () => {
     return (
         <section
@@ -40,7 +48,7 @@ const HeroSection = () => {
                 </div>
 
             </div>
-            
+
         </section>
     )
 }

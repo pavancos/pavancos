@@ -1,6 +1,5 @@
 import { Seaweed_Script } from "next/font/google";
 import Card from "../_components/Card";
-import { title } from "process";
 import trackCode from "../../assets/projectAssets/trackCodePreview.gif"
 import abbrevit from "../../assets/projectAssets/abbrevitPreview.gif"
 import vitaminD from "../../assets/projectAssets/vitamindPreview.png"
@@ -8,6 +7,7 @@ import taskScheduler from "../../assets/projectAssets/taskSchedulerPreview.gif"
 import rToD from "../../assets/projectAssets/rToDPreview.png"
 
 export const SeaweedScript = Seaweed_Script({
+  subsets: ["latin"],
   preload: true,
   weight: "400",
 });
