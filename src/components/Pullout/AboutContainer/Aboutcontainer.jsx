@@ -12,6 +12,8 @@ const Aboutcontainer = (props) => {
                 </p>
             </div>
         </div>
+
+        
     )
 }
 
