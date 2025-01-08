@@ -21,6 +21,7 @@ export default function RootLayout({
       <body
         className={`antialiased w-screen bg-[#090909] text-neutral-200`}
       >
+        
         <Navbar></Navbar>
         <div className={
           `px-4 md:px-48 `
