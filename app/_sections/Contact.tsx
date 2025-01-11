@@ -68,7 +68,7 @@ const Contact = () => {
           Built with NextJs and TailwindCSS & Loosely Designed using Figma
         </p>
         <p className="text-xs text-neutral-300">
-         <a className='hover:text-[#d3dd4a]' href="v0.pavanc.me">v0</a> © 2024 Pavan Kumar Chennupati
+         <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.me">v0</a> © 2024 Pavan Kumar Chennupati
         </p>
       </div>
     </footer>
