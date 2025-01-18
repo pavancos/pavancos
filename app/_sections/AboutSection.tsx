@@ -40,7 +40,7 @@ const AboutSection = () => {
         </p>
         <p className="flex flex-col gap-2 text-sm md:text-base mb-2">
           <span className="text-neutral-400">Backend:</span>
-          NextAuth,Node Js, Express Js, Typescript, Mongoose, Prisma
+          NextAuth, MonoRepo, Node Js, Express Js, Websockets, Typescript, Mongoose, Prisma
         </p>
         <p className="flex flex-col gap-2 text-sm md:text-base mb-2">
           <span className="text-neutral-400">Databases:</span>
@@ -52,7 +52,7 @@ const AboutSection = () => {
         </p>
         <p className="flex flex-col gap-2 text-sm md:text-base mb-2">
           <span className="text-neutral-400">Tools:</span>
-          Figma, Linux, Git/Github, Visual Studio Code
+          Figma, TurboRepo, Linux, Git/Github, Visual Studio Code
         </p>
       </main>
     </section>
