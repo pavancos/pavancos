@@ -16,7 +16,7 @@ const Projects=[
   {
     title:"TrackCode",
     description:"Competitive Coding Performance Tracker",
-    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, ChartJs, Express JS, Node JS, Bottleneck",
+    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
     siteLink:"https://trackcode.in",
     codeLink:"https://github.com/pavancos/trackCP",
     preview:trackCode
@@ -24,7 +24,7 @@ const Projects=[
   {
     title:"Abbrev-It",
     description:"Generates Cool possibilities for a Word",
-    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, ChartJs, Express JS, Node JS, Bottleneck",
+    techStack:"React JS, Tailwind CSS, GSAP,Express JS, Node JS",
     siteLink:"https://abbrevit.vercel.app/",
     codeLink:"https://github.com/vigneshvaranasi/TextFX",
     preview:abbrevit
@@ -32,7 +32,7 @@ const Projects=[
   {
     title:"VitaMin-D",
     description:"A Vitamin Deficiency Finder",
-    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, ChartJs, Express JS, Node JS, Bottleneck",
+    techStack:"React JS, Tailwind CSS, Node Js",
     siteLink:"https://vitamindfind.vercel.app/",
     codeLink:"https://github.com/pavancos/vitamind",
     preview:vitaminD
@@ -41,7 +41,7 @@ const Projects=[
   {
     title:"Task Scheduler",
     description:"Simple Productivity Tool for task management",
-    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, ChartJs, Express JS, Node JS, Bottleneck",
+    techStack:"React JS, Tailwind CSS, Javascript",
     siteLink:"https://pavancos.github.io/TaskScheduler/",
     codeLink:"https://github.com/pavancos/taskscheduler",
     preview:taskScheduler
@@ -49,7 +49,7 @@ const Projects=[
   {
     title:"R to D",
     description:"A Simple Currency Converter",
-    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, ChartJs, Express JS, Node JS, Bottleneck",
+    techStack:"React JS, Tailwind CSS, Javascript",
     siteLink:"https://inrtousd.vercel.app/",
     codeLink:"https://github.com/pavancos/CurrencyConverter",
     preview:rToD
