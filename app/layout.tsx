@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased w-screen bg-[#090909] text-neutral-200`}
+        className={`antialiased w-screen bg-[#090909] text-neutral-200 overflow-x-hidden`}
       >
         
         <Navbar></Navbar>
