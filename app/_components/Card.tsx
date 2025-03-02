@@ -15,6 +15,7 @@ type CardProps = {
     siteLink?: string;
     codeLink?: string;
     preview: StaticImageData;
+    underDevelopment?: boolean;
 }
 
 

@@ -1,5 +1,7 @@
 import { Seaweed_Script } from "next/font/google";
 import Card from "../_components/Card";
+import askIt from '../../assets/projectAssets/askItPreview.gif'
+import xenKit from "../../assets/projectAssets/xenKitPreview.gif"
 import trackCode from "../../assets/projectAssets/trackCodePreview.gif"
 import abbrevit from "../../assets/projectAssets/abbrevitPreview.gif"
 import vitaminD from "../../assets/projectAssets/vitamindPreview.png"
@@ -14,12 +16,29 @@ export const SeaweedScript = Seaweed_Script({
 
 const Projects=[
   {
+    title:"AskIt",
+    description:"Realtime Brainstorming and Q&A Tool",
+    techStack:"React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS",
+    siteLink:"https://askitengine.centralindia.cloudapp.azure.com/",
+    codeLink:"https://github.com/pavancos/askItEngine",
+    preview:askIt
+  },
+  {
     title:"TrackCode",
     description:"Competitive Coding Performance Tracker",
     techStack:"React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
     siteLink:"https://trackcode.in",
     codeLink:"https://github.com/pavancos/trackCP",
     preview:trackCode
+  },
+  {
+    title:"XenKit",
+    description:"UI Library along with CLI for Installation",
+    techStack:"Next Js, Tailwind CSS, Typescript, Framer Motion, NPM CLI",
+    siteLink:"https://askitengine.centralindia.cloudapp.azure.com/",
+    codeLink:"https://github.com/pavancos/askItEngine",
+    underDevelopment:true,
+    preview:xenKit
   },
   {
     title:"Abbrev-It",
