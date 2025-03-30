@@ -24,6 +24,15 @@ const Projects=[
     preview:askIt
   },
   {
+    title:"MarkMe",
+    description:"Mobile Application for Event Management",
+    techStack:"React Native, Expo, Node Js, Express Js, Reaimated, MongoDB",
+    siteLink:"https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
+    codeLink:"https://github.com/pavancos/markme",
+    preview:askIt,
+    isApp:true
+  },
+  {
     title:"TrackCode",
     description:"Competitive Coding Performance Tracker",
     techStack:"React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
@@ -101,6 +110,7 @@ const ProjectsSection = () => {
               siteLink={project.siteLink}
               codeLink={project.codeLink}
               preview={project.preview}
+              isApp={project.isApp}
             />
           ))
         }

@@ -1,5 +1,5 @@
 type LinkButtonProps = {
-  text: "View Site"| "Codebase";
+  text: "View Site"| "Codebase"| "Download";
   href?: string;
 }
 

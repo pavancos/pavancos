@@ -16,10 +16,11 @@ type CardProps = {
     codeLink?: string;
     preview: StaticImageData;
     underDevelopment?: boolean;
+    isApp?:boolean;
 }
 
 
-const Card = ({ title, description, techStack, siteLink, codeLink, preview }: CardProps) => {
+const Card = ({ title, description, techStack, siteLink, codeLink, preview,isApp }: CardProps) => {
     return (
         <div className={
             `w-full bg-[#1a1a1a] rounded-md
@@ -66,7 +67,9 @@ const Card = ({ title, description, techStack, siteLink, codeLink, preview }: Ca
                     </span>
                 </p>
                 <div className="flex flex-row gap-x-4 mt-4 transition-all ease-in-out bottom-2 opacity-85">
-                    <LinkButton text="View Site" href={siteLink} />
+                    <LinkButton 
+                        text={isApp?"Download":"View Site"}
+                        href={siteLink} />
                     <LinkButton text="Codebase" href={codeLink} />
                 </div>
             </div>
