@@ -1,6 +1,7 @@
 import { Seaweed_Script } from "next/font/google";
 import Card from "../_components/Card";
 import askIt from '../../assets/projectAssets/askItPreview.gif'
+import markMe from "../../assets/projectAssets/markMePreview.png"
 import xenKit from "../../assets/projectAssets/xenKitPreview.gif"
 import trackCode from "../../assets/projectAssets/trackCodePreview.gif"
 import abbrevit from "../../assets/projectAssets/abbrevitPreview.gif"
@@ -29,7 +30,7 @@ const Projects=[
     techStack:"React Native, Expo, Node Js, Express Js, Reaimated, MongoDB",
     siteLink:"https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
     codeLink:"https://github.com/pavancos/markme",
-    preview:askIt,
+    preview:markMe,
     isApp:true
   },
   {
