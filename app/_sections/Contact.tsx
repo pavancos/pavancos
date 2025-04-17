@@ -33,18 +33,19 @@ const Contact = () => {
               width={30}
             />
           </a>
-          <LinkIcon link='https://github.com/pavancos' children={
+          <LinkIcon link='https://github.com/pavancos'>
             <SiGithub className={`cursor-pointer`} title='pavancos' />
-          }/>
-          <LinkIcon link='https://www.linkedin.com/in/pavankch/' children={
+          </LinkIcon>
+
+          <LinkIcon link='https://www.linkedin.com/in/pavankch/'>
             <SiLinkedin color={SiLinkedinHex} className={`cursor-pointer`} title='pavankch' />
-          } />
-          <LinkIcon link='https://x.com/pavancos' children={
+          </LinkIcon>
+          <LinkIcon link='https://x.com/pavancos'>
             <SiX className={`cursor-pointer`} title='pavancos' />
-          } />
-          <LinkIcon link='https://www.instagram.com/pavan.cos/' children={
+          </LinkIcon>
+          <LinkIcon link='https://www.instagram.com/pavan.cos/'>
             <SiInstagram color={SiInstagramHex} className={`cursor-pointer`} title='pavan.cos' />
-          } />
+          </LinkIcon>
         </div>
 
         <div className='pt-4 my-3'>
