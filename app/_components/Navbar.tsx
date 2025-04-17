@@ -7,9 +7,9 @@ const UbuntuFont = Ubuntu({
     weight: "400"
 })
 const Navbar = () => {
-  return (
-    <header className={
-        `
+    return (
+        <header className={
+            `
         flex justify-between items-center sticky top-0 z-50
         filter backdrop-blur-lg
         text-neutral-200 bg-[#0909091a]
@@ -17,19 +17,19 @@ const Navbar = () => {
         ${UbuntuFont.className}
         
         `
-    }>
-        <div>
-            <Link
-                href="/"
-                className="text-neutral-300 md:text-lg font-mono font-semibold hover:backdrop-brightness-125">
-                &lt; pavan /&gt;
-            </Link>
-        </div>
-        <div>
-            <ContactButton/>
-        </div>
+        }>
+            <div>
+                <Link
+                    href="/"
+                    className="text-neutral-300 md:text-lg font-mono font-semibold hover:backdrop-brightness-125">
+                    &lt; pavan /&gt;
+                </Link>
+            </div>
+            <div>
+                <ContactButton />
+            </div>
 
-    </header>
-  )
+        </header>
+    )
 }
 export default Navbar

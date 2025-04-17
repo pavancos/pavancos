@@ -16,25 +16,25 @@ type CardProps = {
     codeLink?: string;
     preview: StaticImageData;
     underDevelopment?: boolean;
-    isApp?:boolean;
+    isApp?: boolean;
 }
 
 
-const Card = ({ title, description, techStack, siteLink, codeLink, preview,isApp }: CardProps) => {
+const Card = ({ title, description, techStack, siteLink, codeLink, preview, isApp }: CardProps) => {
     return (
         <div className={
             `w-full bg-[#1a1a1a] rounded-md
-        flex flex-col lg:w-[45%] justify-evenly
-        md:gap-x-4 ${UbuntuFont.className}
-        `
+            flex flex-col lg:w-[45%] justify-evenly
+            md:gap-x-4 ${UbuntuFont.className}
+            `
         }
         >
             <div
                 className={
                     `w-full
-                flex flex-col items-center justify-center
-                rounded-lg
-                `
+                    flex flex-col items-center justify-center
+                    rounded-lg
+                    `
                 }
             >
 
@@ -43,7 +43,7 @@ const Card = ({ title, description, techStack, siteLink, codeLink, preview,isApp
                     alt="TrackCode Preview"
                     className={
                         `rounded-lg
-                `
+                        `
                     }
                     style={{ objectFit: "contain" }}
                     layout="responsive"
@@ -67,8 +67,8 @@ const Card = ({ title, description, techStack, siteLink, codeLink, preview,isApp
                     </span>
                 </p>
                 <div className="flex flex-row gap-x-4 mt-4 transition-all ease-in-out bottom-2 opacity-85">
-                    <LinkButton 
-                        text={isApp?"Download":"View Site"}
+                    <LinkButton
+                        text={isApp ? "Download" : "View Site"}
                         href={siteLink} />
                     <LinkButton text="Codebase" href={codeLink} />
                 </div>

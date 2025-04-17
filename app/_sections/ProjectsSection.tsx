@@ -15,84 +15,84 @@ export const SeaweedScript = Seaweed_Script({
   weight: "400",
 });
 
-const Projects=[
+const Projects = [
   {
-    title:"AskIt",
-    description:"Realtime Brainstorming and Q&A Tool",
-    techStack:"React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS",
-    siteLink:"https://askitengine.centralindia.cloudapp.azure.com/",
-    codeLink:"https://github.com/pavancos/askItEngine",
-    preview:askIt
+    title: "AskIt",
+    description: "Realtime Brainstorming and Q&A Tool",
+    techStack: "React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS",
+    siteLink: "https://askitengine.centralindia.cloudapp.azure.com/",
+    codeLink: "https://github.com/pavancos/askItEngine",
+    preview: askIt
   },
   {
-    title:"MarkMe",
-    description:"Mobile Application for Event Management",
-    techStack:"React Native, Expo, Node Js, Express Js, Reaimated, MongoDB",
-    siteLink:"https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
-    codeLink:"https://github.com/pavancos/markme",
-    preview:markMe,
-    isApp:true
+    title: "MarkMe",
+    description: "Mobile Application for Event Management",
+    techStack: "React Native, Expo, Node Js, Express Js, Reaimated, MongoDB",
+    siteLink: "https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
+    codeLink: "https://github.com/pavancos/markme",
+    preview: markMe,
+    isApp: true
   },
   {
-    title:"TrackCode",
-    description:"Competitive Coding Performance Tracker",
-    techStack:"React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
-    siteLink:"https://trackcode.in",
-    codeLink:"https://github.com/pavancos/trackCP",
-    preview:trackCode
+    title: "TrackCode",
+    description: "Competitive Coding Performance Tracker",
+    techStack: "React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
+    siteLink: "https://trackcode.in",
+    codeLink: "https://github.com/pavancos/trackCP",
+    preview: trackCode
   },
   {
-    title:"XenKit",
-    description:"UI Library along with CLI for Installation",
-    techStack:"Next Js, Tailwind CSS, Typescript, Framer Motion, NPM CLI",
-    siteLink:"https://askitengine.centralindia.cloudapp.azure.com/",
-    codeLink:"https://github.com/pavancos/askItEngine",
-    underDevelopment:true,
-    preview:xenKit
+    title: "XenKit",
+    description: "UI Library along with CLI for Installation",
+    techStack: "Next Js, Tailwind CSS, Typescript, Framer Motion, NPM CLI",
+    siteLink: "https://askitengine.centralindia.cloudapp.azure.com/",
+    codeLink: "https://github.com/pavancos/askItEngine",
+    underDevelopment: true,
+    preview: xenKit
   },
   {
-    title:"Abbrev-It",
-    description:"Generates Cool possibilities for a Word",
-    techStack:"React JS, Tailwind CSS, GSAP,Express JS, Node JS",
-    siteLink:"https://abbrevit.vercel.app/",
-    codeLink:"https://github.com/vigneshvaranasi/TextFX",
-    preview:abbrevit
+    title: "Abbrev-It",
+    description: "Generates Cool possibilities for a Word",
+    techStack: "React JS, Tailwind CSS, GSAP,Express JS, Node JS",
+    siteLink: "https://abbrevit.vercel.app/",
+    codeLink: "https://github.com/vigneshvaranasi/TextFX",
+    preview: abbrevit
   },
   {
-    title:"VitaMin-D",
-    description:"A Vitamin Deficiency Finder",
-    techStack:"React JS, Tailwind CSS, Node Js",
-    siteLink:"https://vitamindfind.vercel.app/",
-    codeLink:"https://github.com/pavancos/vitamind",
-    preview:vitaminD
+    title: "VitaMin-D",
+    description: "A Vitamin Deficiency Finder",
+    techStack: "React JS, Tailwind CSS, Node Js",
+    siteLink: "https://vitamindfind.vercel.app/",
+    codeLink: "https://github.com/pavancos/vitamind",
+    preview: vitaminD
 
   },
   {
-    title:"Task Scheduler",
-    description:"Simple Productivity Tool for task management",
-    techStack:"React JS, Tailwind CSS, Javascript",
-    siteLink:"https://pavancos.github.io/TaskScheduler/",
-    codeLink:"https://github.com/pavancos/taskscheduler",
-    preview:taskScheduler
+    title: "Task Scheduler",
+    description: "Simple Productivity Tool for task management",
+    techStack: "React JS, Tailwind CSS, Javascript",
+    siteLink: "https://pavancos.github.io/TaskScheduler/",
+    codeLink: "https://github.com/pavancos/taskscheduler",
+    preview: taskScheduler
   },
   {
-    title:"R to D",
-    description:"A Simple Currency Converter",
-    techStack:"React JS, Tailwind CSS, Javascript",
-    siteLink:"https://inrtousd.vercel.app/",
-    codeLink:"https://github.com/pavancos/CurrencyConverter",
-    preview:rToD
+    title: "R to D",
+    description: "A Simple Currency Converter",
+    techStack: "React JS, Tailwind CSS, Javascript",
+    siteLink: "https://inrtousd.vercel.app/",
+    codeLink: "https://github.com/pavancos/CurrencyConverter",
+    preview: rToD
   }
 ]
 
 const ProjectsSection = () => {
   return (
-   <section
-    id="Projects"
-    className={
-      `w-full flex flex-col items-start justify-center 
+    <section
+      id="Projects"
+      className={
+        `w-full flex flex-col items-start justify-center 
       min-h-[calc(100vh-180px)] pb-16 md:pb-0 pt-20`
-    }>
+      }>
       <h1 className={
         `ml-2 text-3xl ${SeaweedScript.className}`
       }>
@@ -102,7 +102,7 @@ const ProjectsSection = () => {
         className="w-full flex flex-col md:flex-row md:flex-wrap md:gap-14 gap-y-4  mt-5">
 
         {
-          Projects.map((project,index)=>(
+          Projects.map((project, index) => (
             <Card
               key={index}
               title={project.title}
@@ -118,7 +118,7 @@ const ProjectsSection = () => {
 
       </main>
 
-   </section>
+    </section>
   )
 }
 export default ProjectsSection

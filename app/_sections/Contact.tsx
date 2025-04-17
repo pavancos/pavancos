@@ -6,6 +6,7 @@ import {
 } from '@icons-pack/react-simple-icons';
 import Image from 'next/image';
 import gmailIcon from "../../assets/icons/gmail.svg"
+import LinkIcon from '../_components/_ui/LinkIcon';
 
 
 const Contact = () => {
@@ -18,7 +19,7 @@ const Contact = () => {
       `
     }
     >
-      <p className="font-mono w-2/3 md:w-1/2 text-sm md:text-xl">
+      <p className=" w-2/3 md:w-1/2 text-sm md:text-md">
         Whether you have a question or just want
         to say hi, feel free to contact me and
         I&apos;ll try my best to get back to you!
@@ -32,18 +33,18 @@ const Contact = () => {
               width={30}
             />
           </a>
-          <a href="https://github.com/pavancos">
+          <LinkIcon link='https://github.com/pavancos' children={
             <SiGithub className={`cursor-pointer`} title='pavancos' />
-          </a>
-          <a href="https://linkedin.com/in/pavankch">
+          }/>
+          <LinkIcon link='https://www.linkedin.com/in/pavankch/' children={
             <SiLinkedin color={SiLinkedinHex} className={`cursor-pointer`} title='pavankch' />
-          </a>
-          <a href="https://x.com/pavancos">
+          } />
+          <LinkIcon link='https://x.com/pavancos' children={
             <SiX className={`cursor-pointer`} title='pavancos' />
-          </a>
-          <a href="https://www.instagram.com/pavan.cos/">
+          } />
+          <LinkIcon link='https://www.instagram.com/pavan.cos/' children={
             <SiInstagram color={SiInstagramHex} className={`cursor-pointer`} title='pavan.cos' />
-          </a>
+          } />
         </div>
 
         <div className='pt-4 my-3'>
@@ -68,7 +69,7 @@ const Contact = () => {
           Built with NextJs and TailwindCSS & Loosely Designed using Figma
         </p>
         <p className="text-xs text-neutral-300">
-         <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.me" target="_blank">v0</a> © 2024 Pavan Kumar Chennupati
+          <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.me" target="_blank">v0</a> © 2024 Pavan Kumar Chennupati
         </p>
       </div>
     </footer>

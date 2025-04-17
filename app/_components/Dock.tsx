@@ -4,16 +4,15 @@ const Dock = () => {
     return (
         <div
             className={
-                `w-screen flex justify-center items-center  fixed bottom-5`
+                `w-screen flex justify-center items-center  fixed bottom-5 md:bottom-12`
             }
         >
-
             <nav className={
                 `
                 flex justify-around items-center
                 bg-[#29292952] text-neutral-200
-                w-[85vw] md:w-[500px] py-2 px-2 rounded-2xl text-center
-                filter backdrop-blur-lg 
+                w-[85vw] md:w-[340px] py-2 px-2 rounded-2xl text-center
+                filter backdrop-blur-lg shadow-lg shadow-black/30
                 `
             }>
                 <DockItems src="/dock/home.svg" alt="Home" section="Home" isTop={true}></DockItems>

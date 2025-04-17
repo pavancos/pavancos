@@ -1,13 +1,13 @@
 "use client";
 import Image from 'next/image'
 
-type DockItemsProps={
+type DockItemsProps = {
 
-  src:string;
-  alt:string;
-  section:string;
-  isTop?:boolean;
-  isBottom?:boolean;
+  src: string;
+  alt: string;
+  section: string;
+  isTop?: boolean;
+  isBottom?: boolean;
 }
 
 const handleScroll = (isTop?: boolean, isBottom?: boolean, section?: string) => {
@@ -34,7 +34,7 @@ const DockItems = ({ src, alt, section, isTop, isBottom }: DockItemsProps) => {
         handleScroll(isTop, isBottom, section);
       }}
     >
-      
+
       <Image
         src={src}
         alt={alt}

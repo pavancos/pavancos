@@ -1,10 +1,10 @@
 type LinkButtonProps = {
-  text: "View Site"| "Codebase"| "Download";
+  text: "View Site" | "Codebase" | "Download";
   href?: string;
 }
 
 
-export const LinkButton = ({text,href}:LinkButtonProps) => {
+export const LinkButton = ({ text, href }: LinkButtonProps) => {
   return (
     <a
       className={

@@ -1,8 +1,8 @@
 import { Ubuntu } from "next/font/google"
 const UbuntuFont = Ubuntu({
   subsets: ["latin"],
-    preload: true,
-    weight: "400"
+  preload: true,
+  weight: "400"
 })
 const AboutSection = () => {
   return (
@@ -29,10 +29,10 @@ const AboutSection = () => {
         </p>
       </main>
       <main className="flex flex-col gap-y-2">
-      <h1 className={`text-3xl`}>Skills</h1>
+        <h1 className={`text-3xl`}>Skills</h1>
         <p className="flex flex-col gap-2 text-sm md:text-base mb-2">
           <span className="text-neutral-400">Programming Languages:</span>
-           Javascript, C++, Java, Python
+          Javascript, C++, Java, Python
         </p>
         <p className="flex flex-col gap-2 text-sm md:text-base mb-2">
           <span className="text-neutral-400">Frontend:</span>

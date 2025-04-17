@@ -12,7 +12,7 @@ const ContactButton = () => {
             hover:shadow-[2px_3px_140px_#d9db44] hover:backdrop-brightness-125
             hover:text-[#fff] hover:bg-[#3f484d]
             `
-            }
+        }
             onClick={handleScroll}
         >
             contact
