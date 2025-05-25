@@ -51,7 +51,7 @@ const Contact = () => {
         <div className='pt-4 my-3'>
           <a
             href='/Pavan_Kumar_Chennupati.pdf'
-            download='PavanKumarChennupati.pdf'
+            target="_blank"
             className={
               `bg-gradient-to-t from-[#282e31] to-[#3c4447]
               px-2 md:px-3 py-1 rounded-lg 
@@ -70,7 +70,7 @@ const Contact = () => {
           Built with NextJs and TailwindCSS & Loosely Designed using Figma
         </p>
         <p className="text-xs text-neutral-300">
-          <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.me" target="_blank">v0</a> © 2024 Pavan Kumar Chennupati
+          <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.me" target="_blank">v0</a> © 2025 Pavan Kumar Chennupati
         </p>
       </div>
     </footer>

@@ -27,7 +27,7 @@ const HeroSection = () => {
             }>
                 <main className="mb-5 flex flex-col md:gap-y-2 text-lg md:text-2xl">
                     <h1 className={`text-3xl ${UbuntuFont.className}`}>Pavan Kumar Chennupati</h1>
-                    <p className="text-neutral-300">[full-stack-web-dev]</p>
+                    <p className="text-neutral-300">[ full-stack-dev ]</p>
                 </main>
                 <p className={
                     `${RozhaOne.className} text-5xl md:text-6xl lg:text-7xl
@@ -42,7 +42,7 @@ const HeroSection = () => {
                 </div>
                 <div className={`flex justify-end text-right text-neutral-500 text-sm ${UbuntuFont.className}`}>
                     <div>
-                        <p>Student at PVPSIT,</p>
+                        <p>Intern at Accenture,</p>
                         <p>CS Undergrad</p>
                     </div>
                 </div>
