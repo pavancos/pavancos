@@ -42,7 +42,7 @@ const HeroSection = () => {
                 </div>
                 <div className={`flex justify-end text-right text-neutral-500 text-sm ${UbuntuFont.className}`}>
                     <div>
-                        <p>Intern at Accenture,</p>
+                        <p>Ex-Intern at Accenture,</p>
                         <p>CS Undergrad</p>
                     </div>
                 </div>
