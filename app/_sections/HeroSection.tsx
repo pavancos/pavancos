@@ -30,11 +30,11 @@ const HeroSection = () => {
                     <p className="text-neutral-300">[ full-stack-dev ]</p>
                 </main>
                 <p className={
-                    `${RozhaOne.className} text-5xl md:text-6xl lg:text-7xl
+                    `${RozhaOne.className} text-5xl md:text-6xl lg:text-8xl
                     mb-5 md:mb-7
                     `
                 }>
-                    Web Developer
+                    Developer
                 </p>
                 <div className={`text-lg md:text-2xl mb-32 md:mb-36 ${UbuntuFont.className}`}>
                     <p>ensuring effortless simplicity</p>

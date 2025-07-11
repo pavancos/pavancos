@@ -28,6 +28,21 @@ const AboutSection = () => {
           I love building cool, user-friendly, responsive websites.
         </p>
       </main>
+      <main className="flex flex-col gap-y-2 mb-5">
+        <h1 className={`text-3xl`}>Experience</h1>
+        <div>
+          <p className="flex flex-row flex-wrap gap-2 text-sm md:text-base mb-1">
+            
+              <span className="">Packaged App Development Associate</span>
+              <span className="text-neutral-400"> | </span>
+              <span className="">Accenture</span>
+              <span className="text-neutral-400">| May - July 2025</span>
+          </p>
+          <p className="text-neutral-400 text-sm md:text-base mb-2">
+            Worked on Full-Stack Development and Microservices using Java & Spring Boot. Also took part in code reviews and testing.
+          </p>
+        </div>
+      </main>
       <main className="flex flex-col gap-y-2">
         <h1 className={`text-3xl`}>Skills</h1>
         <p className="flex flex-col gap-2 text-sm md:text-base mb-2">
