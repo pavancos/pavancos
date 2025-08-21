@@ -55,8 +55,8 @@ const Projects = [
     title: "XenKit",
     description: "UI Library along with CLI for Installation",
     techStack: "Next Js, Tailwind CSS, Typescript, Framer Motion, NPM CLI",
-    siteLink: "https://askitengine.centralindia.cloudapp.azure.com/",
-    codeLink: "https://github.com/pavancos/askItEngine",
+    siteLink: "https://xenkit.vercel.app/loading-animations/dash-trail",
+    codeLink: "https://github.com/xen-devs/Xenkit",
     underDevelopment: true,
     preview: xenKit,
   },
@@ -67,15 +67,7 @@ const Projects = [
     siteLink: "https://abbrevit.vercel.app/",
     codeLink: "https://github.com/vigneshvaranasi/TextFX",
     preview: abbrevit,
-  },
-  {
-    title: "Task Scheduler",
-    description: "Simple Productivity Tool for task management",
-    techStack: "React JS, Tailwind CSS, Javascript",
-    siteLink: "https://pavancos.github.io/TaskScheduler/",
-    codeLink: "https://github.com/pavancos/taskscheduler",
-    preview: taskScheduler,
-  },
+  }
 ];
 
 const ProjectsSection = () => {

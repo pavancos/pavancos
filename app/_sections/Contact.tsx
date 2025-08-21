@@ -50,8 +50,7 @@ const Contact = () => {
 
         <div className='pt-4 my-3'>
           <a
-            href='/Pavan_Kumar_Chennupati.pdf'
-            target="_blank"
+            href='https://docs.google.com/document/d/1KF5DkbPLRkBwukGJmfJFXVU_4vWKRIInFzN6CQvROH0/edit?usp=sharing'
             className={
               `bg-gradient-to-t from-[#282e31] to-[#3c4447]
               px-2 md:px-3 py-1 rounded-lg 
@@ -59,6 +58,7 @@ const Contact = () => {
               hover:cursor-pointer transition-colors ease-in-out
               `
             }
+            target='_blank'
           >
             View My Resume
           </a>

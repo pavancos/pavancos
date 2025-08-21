@@ -3,8 +3,8 @@ import "./globals.css";
 import Navbar from "./_components/Navbar";
 import Dock from "./_components/Dock";
 export const metadata: Metadata = {
-  title: "Pavan Kumar Chennupati | Portfolio",
-  description: "Pavan Kumar Chennupati's portfolio, built with Next.js, Tailwind, and Love",
+  title: "Pavan Kumar Chennupati",
+  description: "Pavan Kumar Chennupati's portfolio, built with Next.js, Tailwind",
   icons: {
     icon: "/favicon.ico",
   },
@@ -26,19 +26,10 @@ export const metadata: Metadata = {
     "Pavan Kumar Chennupati Portfolio",
   ],
   openGraph: {
-    title: "Pavan Kumar Chennupati | Portfolio",
-    description: "Pavan Kumar Chennupati's portfolio, built with Next.js, Tailwind, and Love",
+    title: "Pavan Kumar Chennupati",
+    description: "Pavan Kumar Chennupati's portfolio, built with Next.js, Tailwind",
     url: "https://pavanc.me",
-    type: "website",
-    images: [
-      {
-        url: "https://media.licdn.com/dms/image/v2/D5603AQFcsTsJdnfLMg/profile-displayphoto-shrink_400_400/B56ZOA1ZPzGoAg-/0/1733033302581?e=1745452800&v=beta&t=VsSDdbAPvHMxsyFrMy4DY5Kn0ke7gz6xbVm2mYX4wXU",
-        width: 400,
-        height: 400,
-        alt: "Pavan Kumar Chennupati"
-      }
-    ]
-
+    type: "website"
   }
 };
 
@@ -55,7 +46,6 @@ export default function RootLayout({
         <meta property="og:description" content="Pavan Kumar's portfolio, built with Next.js, Tailwind, and Love" />
         <meta property="og:url" content="https://pavanc.me" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D5603AQFcsTsJdnfLMg/profile-displayphoto-shrink_400_400/B56ZOA1ZPzGoAg-/0/1733033302581?e=1745452800&v=beta&t=VsSDdbAPvHMxsyFrMy4DY5Kn0ke7gz6xbVm2mYX4wXU" />
         <link rel="canonical" href="https://pavanc.me" />
         <script type="application/ld+json">
           {`
