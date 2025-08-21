@@ -1,13 +1,12 @@
 import { Seaweed_Script } from "next/font/google";
 import Card from "../_components/Card";
-import askIt from '../../assets/projectAssets/askItPreview.gif'
-import markMe from "../../assets/projectAssets/markMePreview.png"
-import xenKit from "../../assets/projectAssets/xenKitPreview.gif"
-import trackCode from "../../assets/projectAssets/trackCodePreview.gif"
-import abbrevit from "../../assets/projectAssets/abbrevitPreview.gif"
-import vitaminD from "../../assets/projectAssets/vitamindPreview.png"
-import taskScheduler from "../../assets/projectAssets/taskSchedulerPreview.gif"
-import rToD from "../../assets/projectAssets/rToDPreview.png"
+import xenFolio from "../../assets/projectAssets/xenFolioPreview.gif"
+import askIt from "../../assets/projectAssets/askItPreview.gif";
+import markMe from "../../assets/projectAssets/markMePreview.png";
+import xenKit from "../../assets/projectAssets/xenKitPreview.gif";
+import trackCode from "../../assets/projectAssets/trackCodePreview.gif";
+import abbrevit from "../../assets/projectAssets/abbrevitPreview.gif";
+import taskScheduler from "../../assets/projectAssets/taskSchedulerPreview.gif";
 
 export const SeaweedScript = Seaweed_Script({
   subsets: ["latin"],
@@ -17,29 +16,40 @@ export const SeaweedScript = Seaweed_Script({
 
 const Projects = [
   {
+    title:"XenFolio",
+    description:"A No-Code Portfolio Builder",
+    techStack:"React JS, Gemini API, Tailwind CSS, Mongoose, Express JS, GitHub OAuth 2.0",
+    siteLink:"https://xenfolio.vercel.app",
+    codeLink:"https://github.com/pavancos/folioEngine",
+    preview:xenFolio
+  },
+  {
     title: "AskIt",
     description: "Realtime Brainstorming and Q&A Tool",
-    techStack: "React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS",
+    techStack:
+      "React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS",
     siteLink: "https://askitengine.centralindia.cloudapp.azure.com/",
     codeLink: "https://github.com/pavancos/askItEngine",
-    preview: askIt
+    preview: askIt,
   },
   {
     title: "MarkMe",
     description: "Mobile Application for Event Management",
     techStack: "React Native, Expo, Node Js, Express Js, Reaimated, MongoDB",
-    siteLink: "https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
+    siteLink:
+      "https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
     codeLink: "https://github.com/pavancos/markme",
     preview: markMe,
-    isApp: true
+    isApp: true,
   },
   {
     title: "TrackCode",
     description: "Competitive Coding Performance Tracker",
-    techStack: "React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
+    techStack:
+      "React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck",
     siteLink: "https://trackcode.in",
     codeLink: "https://github.com/pavancos/trackCP",
-    preview: trackCode
+    preview: trackCode,
   },
   {
     title: "XenKit",
@@ -48,7 +58,7 @@ const Projects = [
     siteLink: "https://askitengine.centralindia.cloudapp.azure.com/",
     codeLink: "https://github.com/pavancos/askItEngine",
     underDevelopment: true,
-    preview: xenKit
+    preview: xenKit,
   },
   {
     title: "Abbrev-It",
@@ -56,16 +66,7 @@ const Projects = [
     techStack: "React JS, Tailwind CSS, GSAP,Express JS, Node JS",
     siteLink: "https://abbrevit.vercel.app/",
     codeLink: "https://github.com/vigneshvaranasi/TextFX",
-    preview: abbrevit
-  },
-  {
-    title: "VitaMin-D",
-    description: "A Vitamin Deficiency Finder",
-    techStack: "React JS, Tailwind CSS, Node Js",
-    siteLink: "https://vitamindfind.vercel.app/",
-    codeLink: "https://github.com/pavancos/vitamind",
-    preview: vitaminD
-
+    preview: abbrevit,
   },
   {
     title: "Task Scheduler",
@@ -73,52 +74,33 @@ const Projects = [
     techStack: "React JS, Tailwind CSS, Javascript",
     siteLink: "https://pavancos.github.io/TaskScheduler/",
     codeLink: "https://github.com/pavancos/taskscheduler",
-    preview: taskScheduler
+    preview: taskScheduler,
   },
-  {
-    title: "R to D",
-    description: "A Simple Currency Converter",
-    techStack: "React JS, Tailwind CSS, Javascript",
-    siteLink: "https://inrtousd.vercel.app/",
-    codeLink: "https://github.com/pavancos/CurrencyConverter",
-    preview: rToD
-  }
-]
+];
 
 const ProjectsSection = () => {
   return (
     <section
       id="Projects"
-      className={
-        `w-full flex flex-col items-start justify-center 
-      min-h-[calc(100vh-180px)] pb-16 md:pb-0 pt-20`
-      }>
-      <h1 className={
-        `ml-2 text-3xl ${SeaweedScript.className}`
-      }>
-        projects
-      </h1>
-      <main
-        className="w-full flex flex-col md:flex-row md:flex-wrap md:gap-14 gap-y-4  mt-5">
-
-        {
-          Projects.map((project, index) => (
-            <Card
-              key={index}
-              title={project.title}
-              description={project.description}
-              techStack={project.techStack}
-              siteLink={project.siteLink}
-              codeLink={project.codeLink}
-              preview={project.preview}
-              isApp={project.isApp}
-            />
-          ))
-        }
-
+      className={`w-full flex flex-col items-start justify-center 
+      min-h-[calc(100vh-180px)] pb-16 md:pb-0 pt-20`}
+    >
+      <h1 className={`ml-2 text-3xl ${SeaweedScript.className}`}>projects</h1>
+      <main className="w-full flex flex-col md:flex-row md:flex-wrap md:gap-14 gap-y-4  mt-5">
+        {Projects.map((project, index) => (
+          <Card
+            key={index}
+            title={project.title}
+            description={project.description}
+            techStack={project.techStack}
+            siteLink={project.siteLink}
+            codeLink={project.codeLink}
+            preview={project.preview}
+            isApp={project.isApp}
+          />
+        ))}
       </main>
-
     </section>
-  )
-}
-export default ProjectsSection
+  );
+};
+export default ProjectsSection;
