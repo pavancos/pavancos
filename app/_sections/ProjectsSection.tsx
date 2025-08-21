@@ -6,7 +6,6 @@ import markMe from "../../assets/projectAssets/markMePreview.png";
 import xenKit from "../../assets/projectAssets/xenKitPreview.gif";
 import trackCode from "../../assets/projectAssets/trackCodePreview.gif";
 import abbrevit from "../../assets/projectAssets/abbrevitPreview.gif";
-import taskScheduler from "../../assets/projectAssets/taskSchedulerPreview.gif";
 
 export const SeaweedScript = Seaweed_Script({
   subsets: ["latin"],

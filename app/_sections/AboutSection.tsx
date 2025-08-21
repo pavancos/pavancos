@@ -75,7 +75,7 @@ const AboutSection = () => {
       </main>
       <main className="flex flex-col gap-y-2">
         <h1 className={`text-3xl`}>Skills</h1>
-        {mySkills.map((mySkill: any, index: number) => {
+        {mySkills.map((mySkill: {type: string, skills: string}, index: number) => {
           return (
             <p key={index} className="flex flex-col gap-2 text-sm md:text-base mb-2">
               <span className="text-neutral-400">{mySkill.type}:</span>
