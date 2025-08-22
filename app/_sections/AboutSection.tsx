@@ -34,7 +34,7 @@ const mySkills = [
   },
   {
     type: "Tools",
-    skills: "Figma, Docker, TurboRepo, Linux, Git/Github, Visual Studio Code",
+    skills: "Solana Web3.js, Ethers, Figma, Docker, TurboRepo, Linux, Git/Github, Visual Studio Code",
   },
   {
     type:"Cloud & Deployement",
