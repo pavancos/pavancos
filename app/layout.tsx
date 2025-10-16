@@ -44,6 +44,9 @@ export const metadata: Metadata = {
     ],
     alternateLocale: "en_UK",
   },
+  alternates:{
+    canonical: "https://pavanc.in",
+  }
 };
 
 export default function RootLayout({
