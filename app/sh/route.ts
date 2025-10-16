@@ -62,9 +62,9 @@ export async function GET() {
  `;
 //  ${neon("Legend", "yellow")}
 
-//  ${neon("$", "lightBlue")} curl pavanc.me/sh          ${neon("Get this page", "yellow")}
-//  ${neon("$", "lightBlue")} curl pavanc.me/sh/list     ${neon("List of projects", "yellow")}
-//  ${neon("$", "lightBlue")} curl pavanc.me/sh/help     ${neon("Get all endpoints", "yellow")}
+//  ${neon("$", "lightBlue")} curl pavanc.in/sh          ${neon("Get this page", "yellow")}
+//  ${neon("$", "lightBlue")} curl pavanc.in/sh/list     ${neon("List of projects", "yellow")}
+//  ${neon("$", "lightBlue")} curl pavanc.in/sh/help     ${neon("Get all endpoints", "yellow")}
 
   return new NextResponse(message, {
     status: 200,

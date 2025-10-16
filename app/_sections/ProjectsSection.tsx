@@ -28,7 +28,7 @@ const Projects = [
     description: "Realtime Brainstorming and Q&A Tool",
     techStack:
       "React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS",
-    siteLink: "https://askitengine.centralindia.cloudapp.azure.com/",
+    siteLink: "https://askit.xendev.in/",
     codeLink: "https://github.com/pavancos/askItEngine",
     preview: askIt,
   },
@@ -37,7 +37,7 @@ const Projects = [
     description: "Mobile Application for Event Management",
     techStack: "React Native, Expo, Node JS, Express JS, Reaimated, MongoDB",
     siteLink:
-      "https://expo.dev/accounts/xendev/projects/markme/builds/96a2dc40-5cd7-496f-9ef1-8ca79eef1a5d",
+      "https://github.com/pavancos/markme/releases/tag/v1.0.0",
     codeLink: "https://github.com/pavancos/markme",
     preview: markMe,
     isApp: true,
