@@ -43,14 +43,11 @@ const Contact = () => {
           <LinkIcon link='https://x.com/pavancos'>
             <SiX className={`cursor-pointer`} title='pavancos' />
           </LinkIcon>
-          <LinkIcon link='https://www.instagram.com/pavan.cos/'>
-            <SiInstagram color={SiInstagramHex} className={`cursor-pointer`} title='pavan.cos' />
-          </LinkIcon>
         </div>
 
         <div className='pt-4 my-3'>
           <a
-            href='https://docs.google.com/document/d/1KF5DkbPLRkBwukGJmfJFXVU_4vWKRIInFzN6CQvROH0/edit?usp=sharing'
+            href='https://docs.google.com/document/d/1d-gywXmnCtq6GYmdvcTAfldlpa3DflgpwIQuUPzgClw/edit?usp=sharing'
             className={
               `bg-gradient-to-t from-[#282e31] to-[#3c4447]
               px-2 md:px-3 py-1 rounded-lg 
