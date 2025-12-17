@@ -1,7 +1,8 @@
 "use client";
 import {
-  SiGithub, SiInstagram,
-  SiInstagramHex, SiLinkedin,
+  SiGithub, 
+  // SiInstagram, SiInstagramHex,
+  SiLinkedin,
   SiLinkedinHex, SiX
 } from '@icons-pack/react-simple-icons';
 import Image from 'next/image';
