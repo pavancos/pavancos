@@ -15,7 +15,7 @@ const RozhaOne = Rozha_One({
 const HeroSection = () => {
     return (
         <section
-            id="Home"
+            id="home"
             className={
                 `w-full flex flex-col items-start
                 min-h-[calc(100vh-180px)] pb-16 md:pb-0 pt-20 mb-0 md:mb-6

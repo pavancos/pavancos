@@ -40,7 +40,7 @@ const Card = ({ title, description, techStack, siteLink, codeLink, preview, isAp
 
                 <Image
                     src={preview}
-                    alt="TrackCode Preview"
+                    alt={`${title} Preview`}
                     className={
                         `rounded-lg
                         `

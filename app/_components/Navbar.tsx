@@ -20,7 +20,7 @@ const Navbar = () => {
         }>
             <div>
                 <Link
-                    href="/"
+                    href="#home"
                     className="text-neutral-300 md:text-lg font-mono font-semibold hover:backdrop-brightness-125">
                     &lt; pavan /&gt;
                 </Link>

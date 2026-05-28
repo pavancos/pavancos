@@ -5,7 +5,7 @@ import Dock from "./_components/Dock";
 export const metadata: Metadata = {
   title: "Pavan Kumar Chennupati",
   description:
-    "Pavan Kumar Chennupati's portfolio, built with Next.js, Tailwind",
+    "Official Portfolio of Pavan Kumar Chennupati, Full-Stack Developer. Projects, Experience, and Contact Information. Pavan Kumar Chennupati is a Full-Stack Developer, building websites, mobile applications, and generative AI tools that are user-friendly and efficient.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -26,11 +26,12 @@ export const metadata: Metadata = {
     "Pavan Chennupati Portfolio",
     "Pavan Kumar Chennupati Portfolio",
   ],
+  metadataBase: new URL("https://pavanc.in/"),
   openGraph: {
     title: "Pavan Kumar Chennupati",
     description:
-      "Pavan Kumar Chennupati's portfolio, built with Next.js, Tailwind",
-    url: "https://pavanc.in",
+      "Pavan Kumar Chennupati is a Full-Stack Developer, building websites, mobile applications, and generative AI tools that are user-friendly and efficient.",
+    url: "https://pavanc.in/",
     type: "website",
     locale: "en_US",
     siteName: "Pavan Kumar Chennupati",
@@ -44,9 +45,17 @@ export const metadata: Metadata = {
     ],
     alternateLocale: "en_UK",
   },
-  alternates:{
-    canonical: "https://pavanc.in",
-  }
+  twitter: {
+    card: "summary_large_image",
+    title: "Pavan Kumar Chennupati",
+    description:
+      "Pavan Kumar Chennupati is a Full-Stack Developer, building websites, mobile applications, and generative AI tools that are user-friendly and efficient.",
+    images: ["https://pavanc.in/thumbnail.png"],
+    creator: "@pavancos",
+  },
+  alternates: {
+    canonical: "https://pavanc.in/",
+  },
 };
 
 export default function RootLayout({
@@ -63,22 +72,25 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Person',
-              name: 'Pavan Kumar Chennupati',
-              url: 'https://pavanc.in',
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "@id": "https://pavanc.in/#pavan-kumar-chennupati",
+              name: "Pavan Kumar Chennupati",
+              url: "https://pavanc.in/",
+              description:
+                "Official Portfolio of Pavan Kumar Chennupati, Full-Stack Developer. Projects, Experience, and Contact Information. Pavan Kumar Chennupati is a Full-Stack Developer, building websites, mobile applications, and generative AI tools that are user-friendly and efficient.",
               sameAs: [
-                'https://linkedin.com/in/pavankch',
-                'https://github.com/pavancos',
-                'https://x.com/pavancos',
-                'https://www.instagram.com/pavan.cos/'
+                "https://linkedin.com/in/pavankch",
+                "https://github.com/pavancos",
+                "https://x.com/pavancos",
+                "https://www.instagram.com/pavan.cos/",
               ],
-              jobTitle: 'Web Developer',
+              jobTitle: "Full-Stack Developer",
               worksFor: {
-                '@type': 'Organization',
-                name: 'PVPSIT'
-              }
-            })
+                "@type": "Organization",
+                name: "Accenture",
+              },
+            }),
           }}
         />
         <Navbar></Navbar>

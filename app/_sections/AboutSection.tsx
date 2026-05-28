@@ -8,37 +8,37 @@ const UbuntuFont = Ubuntu({
 const mySkills = [
   {
     type: "Programming Languages",
-    skills: "Javascript, C++, Java, Python",
+    skills: "TypeScript, JavaScript, C++, Python, Java",
   },
   {
     type: "Frontend",
     skills:
-      "Next Js, React Js, Tailwind CSS, Bootstrap CSS, Framer Motion, GSAP",
+      "Next.js, React.js, Tailwind CSS, Bootstrap CSS, Framer Motion, GSAP, HTML",
   },
   {
     type: "Backend",
     skills:
-      "NextAuth, MonoRepo, Node Js, Express Js, Websockets, Typescript, Mongoose, Prisma, Spring Boot, FastAPI",
+      "Node.js, Express.js, Mongoose, WebSockets, NextAuth, Prisma, Spring Boot, FastAPI",
   },
   {
     type: "Databases",
-    skills: "MongoDB, MySQL, PostgreSQL, Firebase",
+    skills: "SQL, PostgreSQL, MongoDB, Firebase, Redis, MySQL",
   },
   {
     type: "Mobile Development",
-    skills: "Expo, React Native, NativeWind, Reanimated",
+    skills: " Expo, React Native, NativeWind, Reanimated",
   },
   {
     type: "AI & ML",
-    skills: "Crew AI, LangChain, Predictive Modeling",
+    skills: "Crew AI, LangGraph, Predictive Modeling, Pinecone, Qdrant Vector Database, RAG Pipelines",
   },
   {
     type: "Tools",
-    skills: "Solana Web3.js, Ethers, Figma, Docker, TurboRepo, Linux, Git/Github, Visual Studio Code",
+    skills: "Solana Web3.js, Ethers, Figma, Docker, TurboRepo, Linux, Git/Github, Visual Studio Code, Cheerio, Puppeteer",
   },
   {
     type:"Cloud & Deployement",
-    skills:"Render, Vercel, Railway, Cloudfare, Azure Static Sites, Amazon Cloudfront"
+    skills:"Microsoft Azure, Render, Vercel, Cloudflare, AWS, Google Cloud Platform, Railway, Netlify, DigitalOcean"
   }
 ];
 
@@ -50,16 +50,16 @@ const AboutSection = () => {
         bg-gradient-to-b from-[#09090959] to-[#0909095e]
         ${UbuntuFont.className}
         `}
-      id="About"
+      id="about"
     >
       <main className="flex flex-col gap-y-2 mb-5">
-        <h1 className={`text-3xl`}>About Me</h1>
+        <h2 className={`text-3xl`}>About Me</h2>
         <p className="text-neutral-400">Developer | Designer | Student.</p>
         <p>I&apos;m currently majoring in Computer Science at PVPSIT.</p>
         <p>I love building cool, user-friendly, responsive websites.</p>
       </main>
       <main className="flex flex-col gap-y-2 mb-5">
-        <h1 className={`text-3xl`}>Experience</h1>
+        <h2 className={`text-3xl`}>Experience</h2>
         <div>
           <p className="flex flex-row flex-wrap gap-2 text-sm md:text-base mb-1">
             <span className="">Packaged App Development Associate</span>
@@ -74,7 +74,7 @@ const AboutSection = () => {
         </div>
       </main>
       <main className="flex flex-col gap-y-2">
-        <h1 className={`text-3xl`}>Skills</h1>
+        <h2 className={`text-3xl`}>Skills</h2>
         {mySkills.map((mySkill: {type: string, skills: string}, index: number) => {
           return (
             <p key={index} className="flex flex-col gap-2 text-sm md:text-base mb-2">

@@ -19,6 +19,7 @@ const Contact = () => {
         px-4 flex flex-col justify-around gap-4 pb-32
       `
     }
+      id="contact"
     >
       <p className=" w-2/3 md:w-1/2 text-sm md:text-md">
         Whether you have a question or just want
@@ -67,8 +68,8 @@ const Contact = () => {
         <p className='text-xs'>
           Built with NextJs and TailwindCSS & Loosely Designed using Figma
         </p>
-        <p className="text-xs text-neutral-300">
-          <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.in" target="_blank">v0</a> © 2025 Pavan Kumar Chennupati
+        <p className="text-xs text-neutral-300 flex flex-row gap-1">
+          <a className='hover:text-[#d3dd4a]' href="https://v0.pavanc.in" target="_blank">v0</a> <span>© 2025</span><strong className='font-normal'>Pavan Kumar Chennupati</strong>
         </p>
       </div>
     </footer>

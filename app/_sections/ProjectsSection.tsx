@@ -19,7 +19,7 @@ const Projects = [
     title:"XenFolio",
     description:"A No-Code Portfolio Builder",
     techStack:"React JS, Gemini API, Tailwind CSS, Mongoose, Express JS, GitHub OAuth 2.0",
-    siteLink:"https://xenfolio.vercel.app",
+    siteLink:"https://folio.xendev.in",
     codeLink:"https://github.com/pavancos/folioEngine",
     preview:xenFolio
   },
@@ -55,7 +55,7 @@ const Projects = [
     title:"pWallet",
     description:"Multi-chain crypto wallet - Seed & Balances",
     techStack:"Next JS, Tailwind CSS, TypeScript, Solana Web3, Ethers, JSON RPC",
-    siteLink:"https://pwall.vercel.app",
+    siteLink:"https://wallet.pavanc.in/",
     codeLink:"https://github.com/pavancos/pWallet",
     preview: pWallet
   },
@@ -81,11 +81,11 @@ const Projects = [
 const ProjectsSection = () => {
   return (
     <section
-      id="Projects"
+      id="projects"
       className={`w-full flex flex-col items-start justify-center 
       min-h-[calc(100vh-180px)] pb-16 md:pb-0 pt-20`}
     >
-      <h1 className={`ml-2 text-3xl ${SeaweedScript.className}`}>projects</h1>
+      <h2 className={`ml-2 text-3xl ${SeaweedScript.className}`}>projects</h2>
       <main className="w-full flex flex-col md:flex-row md:flex-wrap md:gap-14 gap-y-4  mt-5">
         {Projects.map((project, index) => (
           <Card

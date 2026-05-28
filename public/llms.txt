@@ -1,0 +1,72 @@
+# Pavan Kumar Chennupati - Full-Stack Developer
+
+## Summary
+Pavan Kumar Chennupati is a Full-Stack Developer and Computer Science undergraduate at PVPSIT. He specializes in building accessible, user-friendly, and responsive applications using modern web technologies like React, Next.js, and Node.js. He has professional intern experience at Accenture and a strong portfolio of personal engineering projects.
+
+## Contact & Links
+- **Email**: pavankc005@gmail.com
+- **Website**: [pavanc.in](https://pavanc.in)
+- **GitHub**: [github.com/pavancos](https://github.com/pavancos)
+- **LinkedIn**: [linkedin.com/in/pavankch](https://www.linkedin.com/in/pavankch/)
+- **X (Twitter)**: [x.com/pavancos](https://x.com/pavancos)
+- **Resume**: [Download PDF](/Pavan_Kumar_Chennupati.pdf)
+
+## Experience
+**Packaged App Development Associate (Intern)**  
+*Accenture* | May 2025 - July 2025  
+- Worked on Full-Stack Development and Microservices using Java & Spring Boot.
+- Participated in code reviews and testing.
+
+## Projects
+
+### 1. XenFolio
+**Description**: A No-Code Portfolio Builder platform.  
+**Tech Stack**: React JS, Gemini API, Tailwind CSS, Mongoose, Express JS, GitHub OAuth 2.0.  
+**Links**: [Live Site](https://folio.xendev.in), [Source Code](https://github.com/pavancos/folioEngine)
+
+### 2. AskIt
+**Description**: Real-time brainstorming and Q&A tool.  
+**Tech Stack**: React JS, WebSockets, Tailwind CSS, OAuth 2.0, Framer Motion, MongoDB, Express JS, Node JS.  
+**Links**: [Live Site](https://askit.xendev.in/), [Source Code](https://github.com/pavancos/askItEngine)
+
+### 3. MarkMe
+**Description**: Mobile application for event management.  
+**Tech Stack**: React Native, Expo, Node JS, Express JS, Reanimated, MongoDB.  
+**Links**: [Live App](https://github.com/pavancos/markme/releases/tag/v1.0.0), [Source Code](https://github.com/pavancos/markme)
+
+### 4. TrackCode
+**Description**: Competitive coding performance tracker.  
+**Tech Stack**: React JS, Tailwind CSS, GSAP, MongoDB, Recharts, Express JS, Node JS, Bottleneck.  
+**Links**: [Live Site](https://trackcode.in), [Source Code](https://github.com/pavancos/trackCP)
+
+### 5. pWallet
+**Description**: Multi-chain crypto wallet (Seed & Balances).  
+**Tech Stack**: Next JS, Tailwind CSS, TypeScript, Solana Web3, Ethers, JSON RPC.  
+**Links**: [Live Site](https://pwall.vercel.app), [Source Code](https://github.com/pavancos/pWallet)
+
+### 6. XenKit
+**Description**: UI Component Library with CLI for installation.  
+**Tech Stack**: Next JS, Tailwind CSS, Typescript, Framer Motion, NPM CLI.  
+**Links**: [Docs/Demo](https://xenkit.vercel.app/loading-animations/dash-trail), [Source Code](https://github.com/xen-devs/Xenkit)
+
+### 7. Abbrev-It
+**Description**: Word suggestion generator.  
+**Tech Stack**: React JS, Tailwind CSS, GSAP, Express JS, Node JS.  
+**Links**: [Live Site](https://abbrevit.vercel.app/), [Source Code](https://github.com/vigneshvaranasi/TextFX)
+
+## Technical Skills
+
+- **Programming Languages**: Javascript, C++, Java, Python
+- **Frontend**: Next.js, React.js, Tailwind CSS, Bootstrap CSS, Framer Motion, GSAP
+- **Backend**: Node.js, Express.js, WebSockets, TypeScript, Mongoose, Prisma, Spring Boot, FastAPI, NextAuth, MonoRepo
+- **Databases**: MongoDB, MySQL, PostgreSQL, Firebase
+- **Mobile Development**: Expo, React Native, NativeWind, Reanimated
+- **AI & ML**: Crew AI, LangChain, Predictive Modeling
+- **Tools**: Solana Web3.js, Ethers, Figma, Docker, TurboRepo, Linux, Git/GitHub, VS Code
+- **Cloud & Deployment**: Render, Vercel, Railway, Cloudflare, Azure Static Sites, Amazon CloudFront
+
+## Certifications
+- **Accenture Internship Completion**: [View Certificate](/certificates/AccentureInternshipCompletion.pdf)
+- **Agentforce Specialist**: [View Certificate](/certificates/AgentforceSpecialist.pdf)
+- **Azure Fundamentals**: [View Certificate](/certificates/AzureFundamentals.pdf)
+- **Spoken Tutorial SQL**: [View Certificate](/certificates/SpokenTutorialSQL.pdf)
